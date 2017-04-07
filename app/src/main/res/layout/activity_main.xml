@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--贝塞尔曲线动画自定义控件-->
+    <com.practice.dev.baziershopcaranim.BazierAnimView
+        android:id="@+id/bezier_anim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--添加按钮-->
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:text="+" />
+    <!--购物车-->
+    <ImageView
+        android:id="@+id/car_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/car" />
+</RelativeLayout>
